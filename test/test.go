@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package test 模拟微信服务器 测试
+// Package test 模拟服务器 测试
 package test
 
 import (
@@ -40,7 +40,7 @@ func Setup() {
 		// Mock Server
 		MockSvrHandler = http.NewServeMux()
 		MockSvr = httptest.NewServer(MockSvrHandler)
-		microapp.ServerUrl = MockSvr.URL // 拦截发往微信服务器的请求
+		microapp.ServerUrl = MockSvr.URL // 拦截发往服务器的请求
 
 		// Mock access token
 		MockSvrHandler.HandleFunc("/api/apps/token", func(w http.ResponseWriter, r *http.Request) {

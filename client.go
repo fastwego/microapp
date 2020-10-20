@@ -271,7 +271,7 @@ func NoticeAccessTokenExpire(ctx *MicroApp) (err error) {
 }
 
 /*
-从微信服务器获取新的 AccessToken
+从服务器获取新的 AccessToken
 
 See: https://developers.weixin.qq.com/doc/offiaccount/Basic_Information/Get_access_token.html
 */

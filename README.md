@@ -82,7 +82,7 @@ FastWeGo 是一套完整的 Go 开发框架，包括支持微信、飞书、钉�
 
 ## 参与贡献
 
-欢迎提交 pr/issue 或者 文档，一起让微信开发更快更好！
+欢迎提交 pr/issue 或者 文档，一起让 Go 开发更快更好！
 
 Faster we go together!
 
